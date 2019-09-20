@@ -1,0 +1,138 @@
+﻿/* Used for making the vertical bootstrap menu work */
+@media (min-width: 768px) {
+    .sidbar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+
+    .sidebar-nav .navbar ul {
+        float: none;
+    }
+
+        .sidebar-nav .navbar ul:not {
+            display: block;
+        }
+
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+
+        .sidebar-nav .navbar li a {
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+}
+
+/* Gives me greater control over fonts */
+.font-serif {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.font-sans {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.font-mono {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.font-small-caps {
+    font-variant-caps: small-caps;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.sfTable {
+    margin: 0 auto;
+}
+
+.text-align-left {
+    text-align: left
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.media-object {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .pull-left {
+        max-width: 25%;
+    }
+}
+
+/* This embed responsive stuff is included in future versions of Bootstrap, but I am using
+    an old version because of other toolkit compatibilities, so I will need to add it here
+*/
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+    .embed-responsive .embed-responsive-item,
+    .embed-responsive iframe,
+    .embed-responsive embed,
+    .embed-responsive object,
+    .embed-responsive video {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+.embed-responsive-16by9 {
+    padding-bottom: 56.25%;
+}
+
+.embed-responsive-4by3 {
+    padding-bottom: 75%;
+}
+
+.math {
+    margin: 8px auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media (min-width: 768px) {
+    .small-margins {
+        margin: inherit !important;
+    }
+}
+
+body {
+    word-wrap: break-word;
+}
+
+.web-logo {
+    margin: 0 5pt;
+}
+
+.motto > h1 {
+    background: #0000007d;
+}
+
+h1 {
+    word-wrap: normal;
+}
