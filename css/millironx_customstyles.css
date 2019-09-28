@@ -180,3 +180,7 @@ dl {
     background-color: #428bca;
     border-color: #357ebd;
   }
+
+.tooltip-inner {
+    min-width: 300px;
+}
