@@ -136,3 +136,7 @@ body {
 h1 {
     word-wrap: normal;
 }
+
+dl {
+    font-size: 16px;
+}
