@@ -50,6 +50,6 @@ defaults:
     values:
       layout: "default"
       title: Milliron X
-      imageUrl: ../img/saddles.jpg
-      blurImageUrl: ../img/saddles_blur.jpg
+      imageUrl: /img/saddles.jpg
+      blurImageUrl: /img/saddles_blur.jpg
       motto: Milliron X
