@@ -184,3 +184,20 @@ dl {
 .tooltip-inner {
     min-width: 300px;
 }
+
+/* Give tab contents a bit more room to breathe */
+.tab-pane {
+    margin-top: 20px;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+footer {
+    position: relative;
+}

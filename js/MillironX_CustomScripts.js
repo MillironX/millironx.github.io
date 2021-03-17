@@ -30,5 +30,11 @@ var fixedTop = false;
 $(window).scroll(function(e) {
     oVal = ($(window).scrollTop() / 170);
     $(".blur").css("opacity", oVal);
+    if (oVal >= 3) {
+        $(".img-src").css("visibility", "hidden")
+    }
+    else {
+        $(".img-src").css("visibility", "")
+    }
 
 });
